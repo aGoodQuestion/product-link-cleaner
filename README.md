@@ -1,6 +1,19 @@
 # product-link-cleaner
-This is a simple python script which automatically trims and cleans product hyperlinks pasted to the clipboard. It monitors the clipboard for new content (it can only handle text), and if the content is the URL is a product link on one of the supported sites it trims out anything but the product URL and pastes that to the clipboard instead.
+This is a simple python script which automatically trims and cleans product hyperlinks pasted to the clipboard. 
 
-Currently, it only supports Amazon.com, eBay.com, and Etsy.com, though I may add more.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
 
-I made this for my own convenience when copying multiple product links out of a browser and into note taking software or emails. It is meant to be made into a standalone executable, which can be easil one using pyinstaller. 
+## General info
+product-link-cleaner monitors the clipboard for new content (it can only process text), and if the content is a product URL from one of the supported sites it trims out anything but the product URL and pastes that to the clipboard instead. I made this for my own convenience when copying multiple product links out of a browser and into note taking software or emails.
+
+Currently, it supports Amazon.com, eBay.com, and Etsy.com.
+	
+## Technologies
+Project is created with:
+* Python 3.8.8
+	
+## Setup
+This can simply be run as a script, though I intended it to be made into a standalone executable, which can be easily done using pyinstaller. 
